@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-01T11:55:20 IST" name="Flipkart Suite" finished-at="2026-10-01T11:55:43 IST" duration-ms="22728">
+  <suite started-at="2026-10-19T17:31:09 IST" name="Flipkart Suite" finished-at="2026-10-19T17:31:29 IST" duration-ms="19822">
     <groups>
     </groups>
-    <test started-at="2026-10-01T11:55:20 IST" name="Camera Lens Test" finished-at="2026-10-01T11:55:43 IST" duration-ms="22728">
+    <test started-at="2026-10-19T17:31:09 IST" name="Camera Lens Test" finished-at="2026-10-19T17:31:29 IST" duration-ms="19822">
       <class name="tests.CameraLensTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CameraLensTest@2c767a52]" started-at="2026-10-01T11:55:20 IST" name="setup" finished-at="2026-10-01T11:55:30 IST" duration-ms="10131" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CameraLensTest@2c767a52]" started-at="2026-10-19T17:31:09 IST" name="setup" finished-at="2026-10-19T17:31:19 IST" duration-ms="9300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCameraLensImages()[pri:0, instance:tests.CameraLensTest@2c767a52]" started-at="2026-10-01T11:55:30 IST" name="verifyCameraLensImages" finished-at="2026-10-01T11:55:43 IST" duration-ms="12497" status="FAIL">
+        <test-method signature="verifyCameraLensImages()[pri:0, instance:tests.CameraLensTest@2c767a52]" started-at="2026-10-19T17:31:19 IST" name="verifyCameraLensImages" finished-at="2026-10-19T17:31:29 IST" duration-ms="10478" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Electronics']"}
-  (Session info: chrome=154.0.8037.58)
+  (Session info: chrome=155.0.8059.41)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.35.0', revision: '1c58e5028b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.17'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7fceefe79ab6a35121070dc86267fcc5, findElement {using=xpath, value=//h1[normalize-space()='Electronics']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\Shital\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63675}, goog:processID: 23568, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63675/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7fceefe79ab6a35121070dc86267fcc5]]>
+Command: [1772f0ef9fe0d8318a98dee93547dd5d, findElement {value=//h1[normalize-space()='Electronics'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.41, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Shital\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65085}, goog:processID: 25944, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65085/devtoo..., se:cdpVersion: 155.0.8059.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1772f0ef9fe0d8318a98dee93547dd5d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Electronics']"}
-  (Session info: chrome=154.0.8037.58)
+  (Session info: chrome=155.0.8059.41)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.35.0', revision: '1c58e5028b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.17'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7fceefe79ab6a35121070dc86267fcc5, findElement {using=xpath, value=//h1[normalize-space()='Electronics']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\Shital\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63675}, goog:processID: 23568, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63675/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7fceefe79ab6a35121070dc86267fcc5
+Command: [1772f0ef9fe0d8318a98dee93547dd5d, findElement {value=//h1[normalize-space()='Electronics'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.41, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\Shital\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65085}, goog:processID: 25944, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65085/devtoo..., se:cdpVersion: 155.0.8059.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1772f0ef9fe0d8318a98dee93547dd5d
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
