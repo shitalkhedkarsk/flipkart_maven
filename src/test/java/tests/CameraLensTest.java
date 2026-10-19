@@ -1,6 +1,5 @@
 package tests;
 
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -20,7 +19,7 @@ public class CameraLensTest extends BaseTest {
         // 1. Click Electronics
         flipkart.clickElectronics();
 
-        // 2. Click Camera
+        // 2. Click Camera jnfknjfkn
         flipkart.clickCamera();
 
         // 3. Click Camera Lens
